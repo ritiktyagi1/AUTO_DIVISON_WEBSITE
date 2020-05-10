@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AUTO DIVISION</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</head>
+  <script>
+    var images = new Array ('img/clients/1.gif', 'img/clients/2.gif','img/clients/3.gif','img/clients/4.gif','img/clients/5.gif','img/clients/6.gif','img/clients/7.gif','img/clients/8.gif','img/clients/9.gif','img/clients/10.gif','img/clients/11.gif','img/clients/12.gif','img/clients/13.gif','img/clients/14.gif',);
+var index = 1;
+ 
+function rotateImage()
+{
+  $('#myImage').fadeOut('fast', function() 
+  {
+    $(this).attr('src', images[index]);
+    
+    $(this).fadeIn('fast', function() 
+    {
+      if (index == images.length-1)
+      {
+        index = 0;
+      }
+      else
+      {
+        index++;
+      }
+    });
+  });
+} 
+ 
+$(document).ready(function()
+{
+  setInterval (rotateImage, 2500);
+});
+  </script>
+</head>
+
+<body data-spy="scroll" data-target="navbarResponsive">
+
+<!-----starrt home section--->
+<div id="home">
+	<!--- navigation-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#"><img src="img/new.jfif" class="d-inline-block align-top">  AUTO DIVISION</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="navbarResponsive">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="nav navbar-nav ml-auto"><!--ml-auto-->
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#overview">overview</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#products">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#infastructure">Infastructure</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Clients">Clients</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Contact">Contacts</a>
+				</li>
+
+			</ul>
+
+		</div>
+	</nav>
+    <!--start landing page-->
+    <div class="landing">
+    	<div class="home-wrap">
+    		<div class="home-inner">
+    			
+    		</div>
+    	</div>
+    </div>
+    <div class="caption text-center">
+    	<h1>welcome to Unitech Machine</h1>
+    	<h3>Auto Divison</h3>
+    	<a class="btn btn-outline-light btn-lg" href="#overview">get started</a><!--you can find more buttons on google-->
+    	
+    </div>
+    <!---end landing page-->
+
+</div>
+<!----end home section--->
+
+<!----start course section--->
+<div id="overview" class="offset">
+	<div class="col-12 narrow text-center">
+		<h1>overview</h1>
+		<p class="lead">Founded and operated with clear vision of the future to transform the automotive components industry, Unitech Machines’ Auto division is one of the foremost manufacturers of a range of automotive components in the country. 
+
+A division of the Flagship company of the UM Group, Auto Division designs and manufactures a range of lighting and signaling equipment under ISO 9001, ISO 14001 and TS 16949 standard. It is a 100 percent OEM supplier to ‘Hero MotoCorp’, the world’s largest two wheeler manufacturer.
+
+Hailed as a manufacturer and supplier of repute, catering to leading global automotive manufacturers, offering technologically advanced products, its goal is to build up a leadership with sincere effort, cost effectiveness and flawless customer centric approach. Needless to say, quality goes into each and every material and process and forms the lifeline of the company’s philosophy. </p>
+		
+	</div>
+
+</div>
+<!----end course section-->
+
+<!----start Features section--->
+<div id="products" class="offset">
+<!--- start of jumbotron -->
+<div class="jumbotron">
+<div class="narrow">
+		
+	<div class="col-12">
+		<h3 class="heading text-center">Products</h3>
+		<div class="heading-underline"></div>
+		<p>High Quality approach to manufacturing and vigorous attention to meet On Time Delivery has won Auto division numerous awards and rave review from clients time and again. Its commitment and approach to become a focused and respected manufacturer and supplier for Global Auto Manufacturers is evident in its product portfolio, as below.</p>
+	</div>
+
+	<section class="row small">
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/1.gif"><br>
+            <span>HEAD LAMPS & TAIL LAMPS</span>
+          </div>
+        </div>
+         <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/2.gif"><br>
+            <span>MULTI REFLECTOR HEAD LIGHTS</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/3.gif"><br>
+            <span>MULTI REFLECTOR TAIL LIGHTS</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/4.jpg"><br>
+            <span>PLASTIC MOULDED COMPONENTS</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/5.jpg"><br>
+            <span>SHEET METAL COMPONENTS</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/6.gif"><br>
+            <span>BLINKERS</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/7.jpg"><br>
+            <span>UTILITY BOX HERO</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/8.jpg"><br>
+            <span>VISOR WITH MASK HERO PUCH STING</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/9.jpg"><br>
+            <span>STAY HEAD LIGHT BRACKET HERO PASSION PLUS</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/11.jpg"><br>
+            <span>REAR DIRECTION INDICATOR HERO KARIZMA</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/12.jpg"><br>
+            <span>FRONT DIRECTION INDICATOR HERO KARIZMA</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/12.jpg"><br>
+            <span>FRONT COMBINATION INDICATOR MARUTI -800</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/13.jpg"><br>
+            <span>TAIL LAMP YAMAHA</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/10.jpg"><br>
+            <span>TAIL LAMP KARIZMA</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/14.jpg"><br>
+            <span>TAIL LAMP KARIZMA</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/15.jpg"><br>
+            <span>NTAIL LAMP HERO NEW  PROJECT</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/16.jpg"><br>
+            <span>HEAD LAMP HERO SPLENDOR</span>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div class="category-tile">
+            <img width="200" height="200" src="img/products/17.jpg"><br>
+            <span>HEAD LAMP PASSION  HERO PLUS</span>
+          </div>
+        </div>
+	</section><!-- end row --->
+
+
+</div>
+</div>
+
+</div>
+<!----end products section-->
+
+<!----start infastructure section--->
+<div id="infastructure" class="offset">
+<div class="fixed-background">
+<div class="row dark text-center">
+	<div class="col-12">
+		<h3 class="heading">Infastructure</h3>
+		<div class="heading-underline"></div>
+		<h4>UM Auto Division – Sound platform for Sound manufacturing.</h4>
+	</div>
+	<div class="col-md-12">
+		<h3>Global Auto manufacturers are increasingly demanding for the quality and finish of the components installed in their vehicles. New benchmarks set every day ensure that only the best manufacturers would establish themselves globally. UM Auto division conforms to international standards in manufacturing of an array of auto parts. It relies on high performance and focused infrastructure to ensure its global customers are sure of the service and quality delivery. That combined with trained manpower skills leads to remarkable efficiency in utilizing the material and process to its optimum. Products are manufactured, tested and packaged with an in-tandem set up of man-machine combination that leaves no stone unturned in ensuring that timelines and standards are met alike.</h3>
+		<p></p>
+	</div>
+	<div class="col-md-4">
+		<img width="300" height="300" src="img/infa/1.jpg">
+	</div>
+	<div class="col-md-4">
+		<img width="300" height="300" src="img/infa/2.jpg">
+	</div>
+	<div class="col-md-4">
+		<img width="300" height="300" src="img/infa/3.jpg">
+	</div>
+		
+</div><!--end row dark-->
+    	<div class="fixed-wrap">
+    		<div class="fixed">
+    			
+    		</div>
+    	</div>
+	
+</div>
+
+</div>
+<!----end infastructure section-->
+<!----start Clients section--->
+<div id="Clients" class="offset">
+
+
+<!-- start jumbotron-->
+<div class="jumbotron">
+
+	<div class="col-12 text-center">
+		<h3 class="heading">Our Prestigious Clients</h3>
+		<div class="heading-underline"></div>
+	</div>
+<div class="row">
+
+  
+	<div class="col-md-8">
+		<ul class="ordered">
+			<li>Hero MotoCorp</li>
+			<li>Maruti Suzuki India Limited</li>
+			<li>Mahindra & Mahindra</li>
+			<li>TVS Motors Limited</li>
+			<li>Yamaha Motors India Limited</li>
+			<li>General Motor India</li>
+			<li>Fiat-India</li>
+			<li>Fiat Tata</li>
+			<li>Volkswagen</li>
+			<li>Ashok Leyland</li>
+			<li>Force Motors</li>
+			<li>JCB India</li>
+			<li>Punjab Tractors Limited</li>
+			<li>Escorts Tractor</li>
+			<li>New Holland Tractor</li>
+			<li>Escorts Construction Equipment Limited</li>
+			<li>Claas India Limited</li>
+		
+		</ul>
+	</div>
+  <div id="test" class="col-md-4">
+   <img id="myImage" src="img/clients/1.gif" alt="image test" />
+  </div>
+</div>
+		
+
+
+</div><!-- end row-->
+	
+</div><!-- end jumbotron-->
+    <div class="col-12 narrow text-center">
+         <p class="lead">want to know more about auto divsion?</p>
+         <a class="btn btn-secondary btn-md" href="https://www.umgroup.in/home.html#" target="_blank">UM GROUP</a>
+    </div>
+ 
+
+</div>
+<!----end CLients section-->
+<!----start Contact section--->
+<div id="Contact" class="offset">
+<footer>
+<div class="row justify-content-center">
+	<div class="col-md-5 text-center">
+		<img src="img/logo.jpeg">
+		<p>ISO 9001/14001 & TS 16949 Certified.</p>
+		<strong>Contact info</strong>
+		<p>91-124-4326555<br></p><address><a href="info@umgroup.in">info@umgroup.in</a></address>
+		<a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+		<a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+		<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+	</div>
+	<hr class="socket">UM Group &copy; 2008
+</div>		
+</footer>
+
+</div>
+<!----end Contact section-->
+
+
+
+<!--- Script Source Files-->
+
+ 
+
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
