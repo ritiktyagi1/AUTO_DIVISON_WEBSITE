@@ -1,0 +1,2 @@
+# AUTO_DIVISON_WEBSITE
+AUTO_DIVISON_WEBSITE  this time used jQuery
